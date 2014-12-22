@@ -1,0 +1,85 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {
+        "awesomeEntry": {
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "description": "The unique identifier. Used to refer to this entry in navigation lists."
+                },
+                "title": {
+                    "type": "string",
+                    "description": "Entry title."
+                },
+                "description": {
+                    "type": "string",
+                    "description": "Entry Description."
+                },
+                "url": {
+                    "type": "string",
+                    "description": "Entry URL."
+                },
+                "tags": {
+                    "type": "array",
+                    "description": "Tags assigned to this entry.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "minItems": 0,
+                    "uniqueItems": true
+                }
+            },
+            "required": [ "id", "title" ],
+            "type": "object",
+            "description": "An entry of information."
+        },
+        "awesomeCategory": {
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "description": "The unique identifier. Used to refer to this entry in navigation lists."
+                },
+                "title": {
+                    "type": "string",
+                    "description": "Category title."
+                },
+                "description": {
+                    "type": "string",
+                    "description": "Category description."
+                },
+                "categories": {
+                    "type": "array",
+                    "items": { "$ref": "#/definitions/awesomeCategory" },
+                    "description": "Subcategories."
+                },
+                "entries": {
+                    "type": "array",
+                    "items": { "$ref": "#/definitions/awesomeEntry" },
+                    "description": "Entries that belong to this category."
+                }
+            },
+            "required": [ "id", "title" ],
+            "type": "object",
+            "description": "A category of entries."
+        },
+
+        "root": {
+            "maximum": 1,
+            "properties": {
+                "categories": {
+                    "type": "array",
+                    "items": { "$ref": "#/definitions/awesomeCategory" },
+                    "description": "Awesome category"
+                }
+            },
+            "type": "object",
+            "description": "All awesome categories"
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/root"
+        }
+    ],
+    "type": "object"
+}

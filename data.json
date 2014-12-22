@@ -1,0 +1,124 @@
+﻿{
+    "$schema": "awesomeGisSchema.json",
+    "categories": [
+        {
+            "id": "category_",
+            "title": "",
+            "description": "",
+            "categories": [ ],
+            "entries": [
+                {
+                    "id": "",
+                    "title": "",
+                    "description": "",
+                    "tags": [],
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "id": "category_",
+            "title": "",
+            "description": "",
+            "categories": [ ],
+            "entries": [
+                {
+                    "id": "",
+                    "title": "",
+                    "description": "",
+                    "tags": [],
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "id": "category_",
+            "title": "",
+            "description": "",
+            "categories": [ ],
+            "entries": [
+                {
+                    "id": "",
+                    "title": "",
+                    "description": "",
+                    "tags": [],
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "id": "category_",
+            "title": "",
+            "description": "",
+            "categories": [ ],
+            "entries": [
+                {
+                    "id": "",
+                    "title": "",
+                    "description": "",
+                    "tags": [],
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "id": "category_",
+            "title": "",
+            "description": "",
+            "categories": [ ],
+            "entries": [
+                {
+                    "id": "",
+                    "title": "",
+                    "description": "",
+                    "tags": [],
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "id": "category_",
+            "title": "",
+            "description": "",
+            "categories": [ ],
+            "entries": [
+                {
+                    "id": "",
+                    "title": "",
+                    "description": "",
+                    "tags": [],
+                    "url": ""
+                }
+            ]
+        },
+        { 
+            "id": "category_TechnologyVendors",
+            "title": "Technology Vendors",
+            "description": "Companies and Organizations that build GIS technology.",
+            "categories": [ ],
+            "entries": [
+                {
+                    "id": "TechnologyVendors_Esri",
+                    "title": "Esri",
+                    "description": "Esri is an international supplier of Geographic Information System (GIS) software, web GIS and geodatabase management applications. The company is headquartered in Redlands, California.",
+                    "tags": [],
+                    "url": "http://www.esri.com/"
+                },
+                {
+                    "id": "TechnologyVendors_Boundless",
+                    "title": "Boundless",
+                    "description": "Boundless (formally OpenGeo) builds geospatial tools and services for managing data and building applications. Its flagship product is OpenGeo Suite. The company is headquartered in New York.",
+                    "tags": [],
+                    "url": "http://boundlessgeo.com/"
+                },
+                {
+                    "id": "TechnologyVendors_Mapbox",
+                    "title": "Mapbox",
+                    "description": "Mapbox creates tools for anyone to design and publish custom maps. The company is based in Washington, DC and San Francisco, and is funded by Foundry Group.",
+                    "tags": [],
+                    "url": "http://mapbox.com/"
+                }
+            ]
+        }
+    ]
+}

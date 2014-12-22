@@ -1,0 +1,46 @@
+﻿@font-face {
+    font-family: 'Lato-Regular';
+    src: url('../fonts/Lato-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: Lato-Regular, Arial;
+}
+
+#banner {
+    background-image: url(../img/WorldMap1689.png);
+}
+
+#banner h1 {
+    color: black;
+}
+
+#banner.shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    margin-bottom: 0;
+}
+
+    #banner.shrink h1 {
+        font-size: 25px;        
+        padding: 4px 5px;
+        margin: 8px 15px 8px 0;
+    }
+
+.sampleLinks {
+    display: inline;
+    opacity: 0;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    -o-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+}
+
+.sampleSection:hover .sampleLinks {
+    display: inline;
+    opacity: 1;
+}

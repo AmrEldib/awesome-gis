@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Awesome GIS - List of GIS Resources</title>
+
+    <link rel="stylesheet" href="Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="Content/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="Content/docs.min.css" />
+    <link rel="stylesheet" href="Content/style.min.css" />
+</head>
+
+<body data-spy="scroll" data-target="#navBar">
+    <div id="banner" class="bs-docs-header">
+        <div class="container">
+            <h1>Awesome GIS</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <form role="form">
+                    <div class="form-group">
+                        <input id="txtFilter" class="form-control" placeholder="Filter" type="text" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="samplesContainer" class="col-md-9"></div>
+
+            <div class="col-md-3">
+                <div id="navBar" class="navbar bs-docs-sidebar hidden-print" role="complementary" data-spy="affix" data-offset-top="50">
+                    <ul id="navContainer" class="nav bs-docs-sidenav"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Scripts/jquery-2.1.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/handlebars.runtime.min.js"></script>
+    <script src="Scripts/jquery.fastLiveFilter.min.js"></script>
+    <script src="templates/navTemplate.hbs.js"></script>
+    <script src="templates/samplesTemplate.hbs.js"></script>
+    <script src="Scripts/awesomeGis.min.js"></script>
+</body>
+</html>

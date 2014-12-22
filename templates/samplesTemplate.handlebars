@@ -1,0 +1,16 @@
+﻿{{#categories}}
+	<ul class='samplesList list-unstyled'>
+		<li>
+			<h1 id='{{id}}' class='page-header'>{{title}}</h1>
+		</li>
+		{{#items}}
+        <li class="sampleSection">
+            <h4 style="display:inline;"> 
+                <a href="{{url}}">{{title}}</a>
+            </h4>
+            <p>{{description}}</p>
+            <hr style="clear:both;" /> 
+        </li>
+		{{/items}}
+	</ul>
+{{/categories}}
