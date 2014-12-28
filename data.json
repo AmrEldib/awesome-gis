@@ -2,17 +2,256 @@
     "$schema": "awesomeGisSchema.json",
     "categories": [
         {
-            "id": "category_",
-            "title": "",
-            "description": "",
-            "categories": [ ],
+            "id": "DesktopEditors",
+            "title": "Desktop Editors",
+            "description": "Desktop software used to edit GIS data.",
             "entries": [
                 {
-                    "id": "",
-                    "title": "",
+                    "id": "DesktopEditors_ArcGIS",
+                    "title": "ArcGIS for Desktop",
+                    "description": "ArcGIS for Desktop includes ArcMap, ArcCatalog, and ArcGlobe. ArcMap for viewing and editing data. ArcCatalog for managing and organizing datasets. ArcGlobe for working with 3D scenes.",
+                    "tags": [ "Esri" ],
+                    "urls": [
+                        {
+                            "title": "ArcGIS Desktop",
+                            "url": "http://desktop.arcgis.com/en/"
+                        },
+                        {
+                            "title": "ArcGIS Help for Previous Versions",
+                            "url": "http://resources.arcgis.com/en/help/previous-help/"
+                        },
+                        {
+                            "title": "ArcGIS 10.3 Documentation",
+                            "url": "http://desktop.arcgis.com/en/desktop/latest/get-started/quick-start-guides/arcgis-desktop-quick-start-guide.htm"
+                        },
+                        {
+                            "title": "ArcGIS Help 10.2, 10.2.1, and 10.2.2",
+                            "url": "http://resources.arcgis.com/en/help/main/10.2/index.html"
+                        },
+                        {
+                            "title": "ArcGIS Help 10.1",
+                            "url": "http://resources.arcgis.com/en/help/main/10.1/"
+                        },
+                        {
+                            "title": "ArcGIS Help 10",
+                            "url": "http://help.arcgis.com/en/arcgisdesktop/10.0/help/"
+                        },
+                        {
+                            "title": "ArcGIS Help 9.3 and 9.3.1",
+                            "url": "http://webhelp.esri.com/arcgisdesktop/9.3"
+                        },
+                        {
+                            "title": "ArcGIS Help 9.2",
+                            "url": "http://webhelp.esri.com/arcgisdesktop/9.2"
+                        },
+                        {
+                            "title": "ArcGIS Help 9.1",
+                            "url": "http://webhelp.esri.com/arcgisdesktop/9.1"
+                        },
+                        {
+                            "title": "Customizing ArcGIS User Interface",
+                            "url": "http://desktop.arcgis.com/en/desktop/latest/guide-books/customizing-the-ui/about-configuring-the-user-interface.htm"
+                        }
+                    ]
+                },
+                {
+                    "id": "DesktopEditors_QGIS",
+                    "title": "QGIS",
+                    "description": "A Free and Open Source Geographic Information System. Create, edit, visualise, analyze and publish geospatial information on Windows, Mac, Linux, BSD (Android coming soon)",
+                    "tags": [ "Open Source" ],
+                    "urls": [
+                        {
+                            "title": "QGIS",
+                            "url": "http://www.qgis.org/en/site/"
+                        },
+                        {
+                            "title": "QGIS Documentation",
+                            "url": "http://www.qgis.org/en/docs/index.html"
+                        },
+                        {
+                            "title": "QGIS 2.6 User Guide",
+                            "url": "http://docs.qgis.org/2.6/en/docs/user_manual"
+                        },
+                        {
+                            "title": "QGIS 2.2 User Guide",
+                            "url": "http://docs.qgis.org/2.2/en/docs/user_manual"
+                        },
+                        {
+                            "title": "QGIS 2.0 User Guide",
+                            "url": "http://docs.qgis.org/2.0/en/docs/user_manual"
+                        },
+                        {
+                            "title": "QGIS 1.8 User Guide",
+                            "url": "http://docs.qgis.org/1.8/en/docs/user_manual"
+                        }
+                    ]
+                },
+                {
+                    "id": "DesktopEditors_ArcPro",
+                    "title": "ArcGIS Pro",
+                    "description": "ArcGIS Pro is the essential application for creating and working with spatial data on your desktop. It provides tools to visualize, analyze, compile, and share your data, in both 2D and 3D environments.",
+                    "tags": [ "Esri" ],
+                    "urls": [
+                        {
+                            "title": "ArcGIS Pro",
+                            "url": "http://pro.arcgis.com/en/pro-app/"
+                        },
+                        {
+                            "title": "ArcGIS Pro Help",
+                            "url": "http://pro.arcgis.com/en/pro-app/help/main/welcome-to-the-arcgis-pro-app-help.htm"
+                        }
+                    ]
+                },
+                {
+                    "id": "DesktopEditors_ArcExplorer",
+                    "title": "ArcGIS Explorer",
                     "description": "",
-                    "tags": [],
-                    "url": ""
+                    "tags": [ "Esri" ],
+                    "urls": [
+                        {
+                            "title": "ArcGIS Explorer Desktop",
+                            "url": "http://resources.arcgis.com/en/communities/arcgis-explorer-desktop/"
+                        },
+                        {
+                            "title": "ArcGIS Explorer Help",
+                            "url": "http://webhelp.esri.com/arcgisexplorer/2500//en/index.html"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "DesktopDevelopment",
+            "title": "Desktop Development",
+            "description": "SDKs and Libraries used to customize Desktop Editors and build applications on the desktop.",
+            "entries": [
+                {
+                    "id": "DesktopDevelopment_PyQGIS",
+                    "title": "PyQGIS Developer",
+                    "description": "Starting from 0.9 release, QGIS has optional scripting support using Python language.",
+                    "tags": [ "Open Source" ],
+                    "urls": [
+                        {
+                            "title": "PyQGIS Developer Cookbook 2.6",
+                            "url": "http://docs.qgis.org/2.6/en/docs/pyqgis_developer_cookbook/"
+                        },
+                        {
+                            "title": "QGIS Python API Documentation 2.6",
+                            "url": "http://qgis.org/api/2.6/classQgisInterface.html"
+                        },
+                        {
+                            "title": "QGIS C++ API Documentation 2.6",
+                            "url": "http://qgis.org/api/2.6/"
+                        },
+                        {
+                            "title": "PyQGIS Developer Cookbook 2.2",
+                            "url": "http://docs.qgis.org/2.2/en/docs/pyqgis_developer_cookbook/"
+                        },
+                        {
+                            "title": "QGIS Python API Documentation 2.2",
+                            "url": "http://qgis.org/api/2.2/classQgisInterface.html"
+                        },
+                        {
+                            "title": "QGIS C++ API Documentation 2.2",
+                            "url": "http://qgis.org/api/2.2/"
+                        },
+                        {
+                            "title": "PyQGIS Developer Cookbook 2.0",
+                            "url": "http://docs.qgis.org/2.0/en/docs/pyqgis_developer_cookbook/"
+                        },
+                        {
+                            "title": "QGIS Python API Documentation 2.0",
+                            "url": "http://qgis.org/api/2.0/classQgisInterface.html"
+                        },
+                        {
+                            "title": "QGIS C++ API Documentation 2.0",
+                            "url": "http://qgis.org/api/2.0/"
+                        }
+                    ]
+                },
+                {
+                    "id": "DesktopDevelopment_ArcPy",
+                    "title": "ArcPy",
+                    "description": "ArcPy is a site package that builds on (and is a successor to) the successful arcgisscripting module. Its goal is to create the cornerstone for a useful and productive way to perform geographic data analysis, data conversion, data management, and map automation with Python.",
+                    "tags": [ "Esri" ],
+                    "urls": [
+                        {
+                            "title": "What is ArcPy?",
+                            "url": "http://desktop.arcgis.com/en/desktop/latest/analyze/arcpy/what-is-arcpy-.htm"
+                        },
+                        {
+                            "title": "Alphabetical list of ArcPy functions",
+                            "url": "http://desktop.arcgis.com/en/desktop/latest/analyze/arcpy-functions/alphabetical-list-of-arcpy-functions.htm"
+                        },
+                        {
+                            "title": "Alphabetical list of ArcPy classes",
+                            "url": "http://desktop.arcgis.com/en/desktop/latest/analyze/arcpy-classes/alphabetical-list-of-arcpy-classes.htm"
+                        },
+                        {
+                            "title": "ArcPy on GitHub",
+                            "url": "https://github.com/arcpy"
+                        }
+                    ]
+                },
+                {
+                    "id": "DesktopDevelopment_ArcPythonAddins",
+                    "title": "ArcGIS Python Addins",
+                    "description": "An add-in is a customization, such as a collection of tools on a toolbar, that plugs into an ArcGIS for Desktop application (that is, ArcMap, ArcCatalog, ArcGlobe, and ArcScene) to provide supplemental functionality for accomplishing custom tasks.",
+                    "tags": [ "Esri" ],
+                    "urls": [
+                        {
+                            "title": "What is a Python add-in?",
+                            "url": "http://desktop.arcgis.com/en/desktop/latest/guide-books/python-addins/what-is-a-python-add-in.htm"
+                        }
+                    ]
+                },
+                {
+                    "id": "DesktopDevelopment_ArcObjects",
+                    "title": "ArcObjects",
+                    "description": "ArcObjects is a library of Component Object Model (COM) components that make up the foundation of ArcGIS. To work with ArcObjects in the .NET development environment, a collection of .NET primary interop assemblies (PIAs) and COM object libraries have been generated to manage .NET–COM interaction. ArcObjects components are installed with ArcGIS for Desktop, ArcGIS Engine, and ArcGIS for Server.",
+                    "tags": [ "Esri" ],
+                    "urls": [
+                        {
+                            "title": "ArcObjects Help for .NET",
+                            "url": "http://resources.arcgis.com/en/help/arcobjects-net/conceptualhelp/"
+                        },
+                        {
+                            "title": "ArcObjects 10 Help for .NET",
+                            "url": "http://help.arcgis.com/en/sdk/10.0/arcobjects_net/ao_home.html"
+                        },
+                        {
+                            "title": "ArcObjects Help for Java",
+                            "url": "http://resources.arcgis.com/en/help/arcobjects-java/concepts/engine/"
+                        },
+                        {
+                            "title": "ArcObjects 10 Help for Java",
+                            "url": "http://help.arcgis.com/en/sdk/10.0/java_ao_adf/ao_home.html"
+                        },
+                        {
+                            "title": "ArcObjects Help for cross-platform C++",
+                            "url": "http://resources.arcgis.com/en/help/arcobjects-cpp/conceptualhelp/"
+                        },
+                        {
+                            "title": "ArcObjects 10 Help for cross-platform C++",
+                            "url": "http://help.arcgis.com/en/sdk/10.0/arcobjects_cpp/ao_home.html"
+                        },
+                        {
+                            "title": "ArcObjects 10 Help for VBA",
+                            "url": "http://help.arcgis.com/en/sdk/10.0/vba_desktop/ao_home.html"
+                        }
+                    ]
+                },
+                {
+                    "id": "DesktopDevelopment_ArcExplorerSDK",
+                    "title": "ArcGIS Explorer Desktop SDK",
+                    "description": "",
+                    "tags": [ "Esri" ],
+                    "urls": [
+                        {
+                            "title": "SDK Help",
+                            "url": "http://help.arcgis.com/en/arcgisexplorer/2500/sdk/index.html"
+                        }
+                    ]
                 }
             ]
         },
@@ -20,14 +259,18 @@
             "id": "category_",
             "title": "",
             "description": "",
-            "categories": [ ],
             "entries": [
                 {
                     "id": "",
                     "title": "",
                     "description": "",
-                    "tags": [],
-                    "url": ""
+                    "tags": [ ],
+                    "urls": [
+                        {
+                            "title": "",
+                            "url": ""
+                        }
+                    ]
                 }
             ]
         },
@@ -35,14 +278,18 @@
             "id": "category_",
             "title": "",
             "description": "",
-            "categories": [ ],
             "entries": [
                 {
                     "id": "",
                     "title": "",
                     "description": "",
-                    "tags": [],
-                    "url": ""
+                    "tags": [ ],
+                    "urls": [
+                        {
+                            "title": "",
+                            "url": ""
+                        }
+                    ]
                 }
             ]
         },
@@ -50,14 +297,18 @@
             "id": "category_",
             "title": "",
             "description": "",
-            "categories": [ ],
             "entries": [
                 {
                     "id": "",
                     "title": "",
                     "description": "",
-                    "tags": [],
-                    "url": ""
+                    "tags": [ ],
+                    "urls": [
+                        {
+                            "title": "",
+                            "url": ""
+                        }
+                    ]
                 }
             ]
         },
@@ -65,14 +316,18 @@
             "id": "category_",
             "title": "",
             "description": "",
-            "categories": [ ],
             "entries": [
                 {
                     "id": "",
                     "title": "",
                     "description": "",
-                    "tags": [],
-                    "url": ""
+                    "tags": [ ],
+                    "urls": [
+                        {
+                            "title": "",
+                            "url": ""
+                        }
+                    ]
                 }
             ]
         },
@@ -80,43 +335,290 @@
             "id": "category_",
             "title": "",
             "description": "",
-            "categories": [ ],
             "entries": [
                 {
                     "id": "",
                     "title": "",
                     "description": "",
-                    "tags": [],
-                    "url": ""
+                    "tags": [ ],
+                    "urls": [
+                        {
+                            "title": "",
+                            "url": ""
+                        }
+                    ]
                 }
             ]
         },
-        { 
-            "id": "category_TechnologyVendors",
+        {
+            "id": "category_",
+            "title": "",
+            "description": "",
+            "entries": [
+                {
+                    "id": "",
+                    "title": "",
+                    "description": "",
+                    "tags": [ ],
+                    "urls": [
+                        {
+                            "title": "",
+                            "url": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "category_",
+            "title": "",
+            "description": "",
+            "entries": [
+                {
+                    "id": "",
+                    "title": "",
+                    "description": "",
+                    "tags": [ ],
+                    "urls": [
+                        {
+                            "title": "",
+                            "url": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "category_",
+            "title": "",
+            "description": "",
+            "entries": [
+                {
+                    "id": "",
+                    "title": "",
+                    "description": "",
+                    "tags": [ ],
+                    "urls": [
+                        {
+                            "title": "",
+                            "url": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Data",
+            "title": "Data Providers and Sources",
+            "description": "",
+            "entries": [
+                {
+                    "id": "DataProviders_OpenStreetMap",
+                    "title": "OpenStreetMap",
+                    "description": "OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world. ",
+                    "tags": [ "Open Source" ],
+                    "urls": [
+                        {
+                            "title": "OpenStreetMap",
+                            "url": "http://www.openstreetmap.org/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "TechnologyVendors",
             "title": "Technology Vendors",
             "description": "Companies and Organizations that build GIS technology.",
-            "categories": [ ],
             "entries": [
                 {
                     "id": "TechnologyVendors_Esri",
                     "title": "Esri",
                     "description": "Esri is an international supplier of Geographic Information System (GIS) software, web GIS and geodatabase management applications. The company is headquartered in Redlands, California.",
-                    "tags": [],
-                    "url": "http://www.esri.com/"
+                    "tags": [ ],
+                    "urls": [
+                        {
+                            "title": "Esri",
+                            "url": "http://www.esri.com/"
+                        }
+                    ]
                 },
                 {
                     "id": "TechnologyVendors_Boundless",
                     "title": "Boundless",
                     "description": "Boundless (formally OpenGeo) builds geospatial tools and services for managing data and building applications. Its flagship product is OpenGeo Suite. The company is headquartered in New York.",
-                    "tags": [],
-                    "url": "http://boundlessgeo.com/"
+                    "tags": [ ],
+                    "urls": [
+                        {
+                            "title": "Boundless",
+                            "url": "http://boundlessgeo.com/"
+                        }
+                    ]
                 },
                 {
                     "id": "TechnologyVendors_Mapbox",
                     "title": "Mapbox",
                     "description": "Mapbox creates tools for anyone to design and publish custom maps. The company is based in Washington, DC and San Francisco, and is funded by Foundry Group.",
-                    "tags": [],
-                    "url": "http://mapbox.com/"
+                    "tags": [ ],
+                    "urls": [
+                        {
+                            "title": "Mapbox",
+                            "url": "http://mapbox.com/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Organizations",
+            "title": "Organizations",
+            "description": "Organizations that work on GIS standards and industries",
+            "entries": [
+                {
+                    "id": "Organizations_OSGeo",
+                    "title": "OSGeo",
+                    "description": "OSGeo was created to support the collaborative development of open source geospatial software, and promote its widespread use.",
+                    "tags": [ "Open Source" ],
+                    "urls": [
+                        {
+                            "title": "OSGeo",
+                            "url": "http://www.osgeo.org/"
+                        }
+                    ]
+                },
+                {
+                    "id": "Organizations_OSM",
+                    "title": "OpenStreeMap Foundation",
+                    "description": "The OpenStreetMap Foundation is an international not-for-profit organization supporting, but not controlling, the OpenStreetMap Project. It is dedicated to encouraging the growth, development and distribution of free geospatial data and to providing geospatial data for anyone to use and share.",
+                    "tags": [ "Open Source" ],
+                    "urls": [
+                        {
+                            "title": "OpenStreeMap Foundation",
+                            "url": "http://www.osmfoundation.org/wiki/Main_Page"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Communities",
+            "title": "Communities",
+            "description": "GIS Communities",
+            "entries": [
+                {
+                    "id": "GISTribe",
+                    "title": "#GISTribe",
+                    "description": "Weekly virtual meetup on Twitter for GIS enthusiasts",
+                    "tags": [ ],
+                    "urls": [
+                        {
+                            "title": "#GISTribe",
+                            "url": "https://twitter.com/search?q=%23gistribe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Conferences",
+            "title": "Conferences",
+            "description": "GIS Conferences",
+            "entries": [
+                {
+                    "id": "Conferences_EsriUC",
+                    "title": "Esri International User Conference",
+                    "description": "Held in San Diego, California",
+                    "tags": [ "Esri" ],
+                    "urls": [
+                        {
+                            "title": "Esri UC",
+                            "url": "http://www.esri.com/events/user-conference"
+                        }
+                    ]
+                },
+                {
+                    "id": "Conferences_Foss4G",
+                    "title": "FOSS4G",
+                    "description": "The annual FOSS4G conference is the largest global gathering focused on open source geospatial software. FOSS4G brings together developers, users, decision-makers and observers from a broad spectrum of organizations and fields of operation. ",
+                    "tags": [ "Open Source" ],
+                    "urls": [
+                        {
+                            "title": "FOSS4G",
+                            "url": "http://foss4g.org/"
+                        },
+                        {
+                            "title": "FOSS4G 2015 - Seoul",
+                            "url": "http://2015.foss4g.org/"
+                        },
+                        {
+                            "title": "FOSS4G 2014 - PDX",
+                            "url": "http://2014.foss4g.org/"
+                        },
+                        {
+                            "title": "FOSS4G 2013 - Nottingham",
+                            "url": "http://2013.foss4g.org/"
+                        },
+                        {
+                            "title": "FOSS4G 2011 - Denver",
+                            "url": "http://2011.foss4g.org/"
+                        },
+                        {
+                            "title": "FOSS4G 2010 - Barcelona",
+                            "url": "http://2010.foss4g.org/"
+                        },
+                        {
+                            "title": "FOSS4G 2009 - Sydney",
+                            "url": "http://2009.foss4g.org/"
+                        },
+                        {
+                            "title": "FOSS4G 2008 - Cape Town, South Africa",
+                            "url": "http://2008.foss4g.org/"
+                        },
+                        {
+                            "title": "FOSS4G 2007 - Victoria, Canada",
+                            "url": "http://2007.foss4g.org/"
+                        },
+                        {
+                            "title": "FOSS4G 2006",
+                            "url": "http://2006.foss4g.org/"
+                        }
+                    ]
+                },
+                {
+                    "id": "Conferences_EsriDevSummit",
+                    "title": "Esri Developer Summit",
+                    "description": "Held in Palm Springs, California",
+                    "tags": [ "Esri" ],
+                    "urls": [
+                        {
+                            "title": "Esri DevSummit",
+                            "url": "http://www.esri.com/events/devsummit"
+                        }
+                    ]
+                },
+                {
+                    "id": "Conferences_EsriFed",
+                    "title": "Esri Federal GIS Conference",
+                    "description": "Held in Washington, DC",
+                    "tags": [ "Esri" ],
+                    "urls": [
+                        {
+                            "title": "Esri Federal GIS Conference",
+                            "url": "http://www.esri.com/events/federal"
+                        }
+                    ]
+                },
+                {
+                    "id": "Conferences_EsriDevSummit",
+                    "title": "Esri Developer Summit",
+                    "description": "Held at Esri Headquarters in Redlands, California",
+                    "tags": [ "Esri" ],
+                    "urls": [
+                        {
+                            "title": "Esri Geodesign Summit",
+                            "url": "http://www.geodesignsummit.com/index.html"
+                        }
+                    ]
                 }
             ]
         }

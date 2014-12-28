@@ -1,6 +1,21 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
     "definitions": {
+        "awesomeUrl": {
+            "properties": {
+                "title": {
+                    "type": "string",
+                    "description": "URL's title."
+                },
+                "url": {
+                    "type": "string",
+                    "description": "URL"
+                }
+            },
+            "required": [ "title", "url" ],
+            "type": "object",
+            "description": "A URL and its description."
+        },
         "awesomeEntry": {
             "properties": {
                 "id": {
@@ -15,15 +30,27 @@
                     "type": "string",
                     "description": "Entry Description."
                 },
-                "url": {
-                    "type": "string",
-                    "description": "Entry URL."
+                "urls": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "anyOf": [
+                            { "$ref": "#/definitions/awesomeUrl" }
+                        ]
+                    },
+                    "description": "List of URLs."
                 },
                 "tags": {
                     "type": "array",
                     "description": "Tags assigned to this entry.",
                     "items": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                            "Esri",
+                            "OpenGeo",
+                            "Open Source",
+                            "JavaScript", 
+                            "Mobile" ]
                     },
                     "minItems": 0,
                     "uniqueItems": true
@@ -47,11 +74,6 @@
                     "type": "string",
                     "description": "Category description."
                 },
-                "categories": {
-                    "type": "array",
-                    "items": { "$ref": "#/definitions/awesomeCategory" },
-                    "description": "Subcategories."
-                },
                 "entries": {
                     "type": "array",
                     "items": { "$ref": "#/definitions/awesomeEntry" },
@@ -62,7 +84,6 @@
             "type": "object",
             "description": "A category of entries."
         },
-
         "root": {
             "maximum": 1,
             "properties": {

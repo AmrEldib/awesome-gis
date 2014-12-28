@@ -5,18 +5,18 @@
 /// <reference path="../templates/samplesTemplate.hbs.js" />
 
 try {
-    $.get('data.json', function (samplesData) {
-        $('#samplesContainer').html(samplesTemplate(samplesData));
+    $.get('data.json', function (awesomeData) {
+        $('#itemsContainer').html(itemTemplate(awesomeData));
 
         $(function () {
-            $('#txtFilter').fastLiveFilter('.samplesList', {
+            $('#txtFilter').fastLiveFilter('.itemList', {
                 timeout: 200,
                 callback: function (total) {
                     console.log("Found: " + total);
                 }
             });
         });
-        $('#navContainer').html(navTemplate(samplesData));
+        $('#navContainer').html(navTemplate(awesomeData));
 
         $(window).scroll(function () {
             if ($(document).scrollTop() > 50) {

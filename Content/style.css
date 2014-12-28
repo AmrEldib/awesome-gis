@@ -7,12 +7,26 @@ body {
     font-family: Lato-Regular, Arial;
 }
 
+.bs-docs-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 #banner {
     background-image: url(../img/WorldMap1689.png);
+    box-shadow: 3px 3px 3px 3px #ccc;
 }
 
 #banner h1 {
     color: black;
+}
+
+.bannerPadding {
+    /*padding-top: 120px;*/
+}
+
+hr {
+    clear: both;
 }
 
 #banner.shrink {
@@ -31,7 +45,7 @@ body {
         margin: 8px 15px 8px 0;
     }
 
-.sampleLinks {
+.itemLinks {
     display: inline;
     opacity: 0;
     -moz-transition: opacity .25s ease-in-out;
@@ -40,7 +54,15 @@ body {
     transition: opacity .25s ease-in-out;
 }
 
-.sampleSection:hover .sampleLinks {
+.section h4 {
+    display: inline;
+}
+
+.section li {
+    list-style: none;
+}
+
+.section:hover .sampleLinks {
     display: inline;
     opacity: 1;
 }
