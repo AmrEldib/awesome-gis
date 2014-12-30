@@ -1,6 +1,6 @@
-﻿/// <reference path="jquery-2.1.1.js" />
-/// <reference path="bootstrap.js" />
-/// <reference path="handlebars.runtime.js" />
+﻿/// <reference path="../node_modules/jquery/dist/jquery.js" />
+/// <reference path="../node_modules/bootstrap/dist/js/bootstrap.js" />
+/// <reference path="../node_modules/handlebars/dist/handlebars.runtime.js" />
 /// <reference path="../templates/navTemplate.hbs.js" />
 /// <reference path="../templates/samplesTemplate.hbs.js" />
 
@@ -48,7 +48,7 @@ try {
         //            }
         //        });
         //    }
-
+         
         //    //// animate
         //    //$('html').animate({
         //    //    scrollTop: $(this.hash).offset().top - 120

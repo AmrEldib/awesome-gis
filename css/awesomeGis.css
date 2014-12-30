@@ -9,7 +9,7 @@ body {
 
 .bs-docs-header {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; 
 }
 
 #navBar.shrink {
@@ -28,7 +28,7 @@ body {
 }
 
 #banner {
-    background-image: url(../img/background.png);
+    background-image: url(../img/banner.png);
     box-shadow: 3px 3px 3px 3px #ccc;
 }
 
