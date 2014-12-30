@@ -1,24 +1,17 @@
 ﻿{{#categories}}
-    <!--<ul class='itemList list-unstyled'>-->
-        <span class="anchor" id='{{id}}'></span>
-        <!--<li>-->
-            <h1 class='page-header'>{{title}}</h1>
-            <p>{{description}}</p>
-        <!--</li>-->
-        {{#entries}}
-            <!--<li class="section">-->
-                <h4>{{title}}</h4>  
-                {{#tags}}
-                    <span class="label label-default">{{.}}</span>
-                {{/tags}}
-                <p>{{description}}</p>
-                <ul>
-                    {{#urls}}
-                    <li><a href="{{url}}">{{title}}</a></li>
-                    {{/urls}}
-                </ul>
-                <hr />
-            <!--</li>-->
-        {{/entries}}
-	<!--</ul>-->
+    <h1 id='{{id}}' class='page-header'>{{title}}</h1>
+    <p>{{description}}</p>
+    {{#entries}}
+        <h4>{{title}}</h4>
+        {{#tags}}
+            <span class="label label-default">{{.}}</span>
+        {{/tags}}
+        <p>{{description}}</p>
+        <ul>
+            {{#urls}}
+                <li><a href="{{url}}">{{title}}</a></li>
+            {{/urls}}
+        </ul>
+        <hr />
+    {{/entries}}
 {{/categories}}

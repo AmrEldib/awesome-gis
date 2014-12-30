@@ -7,38 +7,44 @@ body {
     font-family: Lato-Regular, Arial;
 }
 
+/*#navBar.shrink {
+    padding-top: 120px;
+}*/
+
+.affix-top {
+    padding-top: 0;
+}
+
+.affix {
+    padding-top: 120px;
+}
+
+h1[id] {
+    padding-top: 0;
+}
+
+/*#itemsContainer.shrink {
+    padding-top: 120px;
+}*/
+
 .bs-docs-header {
     padding-top: 20px;
     padding-bottom: 20px; 
-}
-
-#navBar.shrink {
-    padding-top: 120px;
-}
-
-#itemsContainer.shrink {
-    padding-top: 120px;
-}
-
-.anchor{
-  display: block;
-  height: 115px; /*same height as header*/
-  margin-top: -115px; /*same height as header*/
-  visibility: hidden;
-}
-
-#banner {
     background-image: url(../img/banner.png);
     box-shadow: 3px 3px 3px 3px #ccc;
 }
 
-#banner h1 {
+.bs-docs-header h1 {
     color: black;
 }
 
-.bannerPadding {
-    padding-top: 120px;
+.bs-docs-sidenav {
+    margin-top: 0;
 }
+
+/*.bannerPadding {
+    padding-top: 120px;
+}*/
 
 hr {
     clear: both;

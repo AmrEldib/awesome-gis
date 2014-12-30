@@ -10,24 +10,25 @@ try {
 
         $(function () {
             $('#txtFilter').fastLiveFilter('.itemList', {
-                timeout: 200,
-                callback: function (total) {
-                    console.log("Found: " + total);
-                }
+                timeout: 200
+                //callback: function (total) {
+                //    console.log("Found: " + total);
+                //}
             });
         });
         $('#navContainer').html(navTemplate(awesomeData));
 
         $(window).scroll(function () {
             if ($(document).scrollTop() > 50) {
+                console.log("Scroll past 50");
                 $('#banner').addClass('shrink');
                 //$('#pageContent').addClass('shrink');
-                $('#navBar').addClass('shrink');
+                //$('#navBar').addClass('shrink');
                 //$('#itemsContainer').addClass('shrink');
             } else {
                 $('#banner').removeClass('shrink');
                 //$('#pageContent').removeClass('shrink');
-                $('#navBar').removeClass('shrink');
+                //$('#navBar').removeClass('shrink');
                 //$('#itemsContainer').removeClass('shrink');
             }
         });
