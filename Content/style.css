@@ -12,8 +12,23 @@ body {
     padding-bottom: 20px;
 }
 
+#navBar.shrink {
+    padding-top: 120px;
+}
+
+#itemsContainer.shrink {
+    padding-top: 120px;
+}
+
+.anchor{
+  display: block;
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
+  visibility: hidden;
+}
+
 #banner {
-    background-image: url(../img/WorldMap1689.png);
+    background-image: url(../img/background.png);
     box-shadow: 3px 3px 3px 3px #ccc;
 }
 
@@ -22,7 +37,7 @@ body {
 }
 
 .bannerPadding {
-    /*padding-top: 120px;*/
+    padding-top: 120px;
 }
 
 hr {

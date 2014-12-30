@@ -256,19 +256,79 @@
             ]
         },
         {
-            "id": "category_",
-            "title": "",
-            "description": "",
+            "id": "Database",
+            "title": "Database",
+            "description": "Software that enable storing geographic data",
             "entries": [
                 {
-                    "id": "",
-                    "title": "",
-                    "description": "",
+                    "id": "Database_PostGIS",
+                    "title": "PostGIS",
+                    "description": "PostGIS is a spatial database extender for PostgreSQL object-relational database. It adds support for geographic objects allowing location queries to be run in SQL.",
+                    "tags": [ "Open Source" ],
+                    "urls": [
+                        {
+                            "title": "PostGIS",
+                            "url": "http://postgis.net/"
+                        },
+                        {
+                            "title": "PostgreSQL",
+                            "url": "http://postgresql.org/"
+                        },
+                        {
+                            "title": "PostGIS 2.1 Documentation",
+                            "url": "http://postgis.net/docs/manual-2.1"
+                        },
+                        {
+                            "title": "PostGIS 2.0 Documentation",
+                            "url": "http://postgis.net/docs/manual-2.0"
+                        },
+                        {
+                            "title": "PostGIS 1.5 Documentation",
+                            "url": "http://postgis.net/docs/manual-1.5"
+                        },
+                        {
+                            "title": "Introduction to PostGIS",
+                            "url": "http://workshops.boundlessgeo.com/postgis-intro/"
+                        },
+                        {
+                            "title": "PostGIS 2.1 Cheat Sheet (PDF)",
+                            "url": "http://www.postgis.us/downloads/postgis21_cheatsheet.pdf"
+                        },
+                        {
+                            "title": "PostGIS 2.1 Raster Cheat Sheet (PDF)",
+                            "url": "http://www.postgis.us/downloads/postgis21_raster_cheatsheet.pdf"
+                        },
+                        {
+                            "title": "PostGIS 2.1 Topology Cheat Sheet",
+                            "url": "http://www.postgis.us/downloads/postgis21_topology_cheatsheet.pdf"
+                        },
+                        {
+                            "title": "Essential PostGIS",
+                            "url": "http://refcardz.dzone.com/refcardz/essential-postgis"
+                        }
+                    ]
+                },
+                {
+                    "id": "Database_FGDB",
+                    "title": "File Geodatabase API",
+                    "description": "The File Geodatabase API allows you to develop apps that interact with a file geodatabase without using ArcObjects. The API is available as a C++ library (.dll), which provides access to low-level file I/O modules.",
+                    "tags": [ "Esri" ],
+                    "urls": [
+                        {
+                            "title": "File Geodatabase API",
+                            "url": "http://www.esri.com/software/arcgis/geodatabase/interoperability"
+                        }
+                    ]
+                },
+                {
+                    "id": "Database_OracleSpatial",
+                    "title": "Oracle Spatial",
+                    "description": "Oracle Spatial and Graph supports a full range of geospatial data and analytics for land management and GIS, mobile location services, sales territory management, transportation, LiDAR analysis and location-enabled Business Intelligence.",
                     "tags": [ ],
                     "urls": [
                         {
-                            "title": "",
-                            "url": ""
+                            "title": "Oracle Spatial",
+                            "url": "http://www.oracle.com/technetwork/database/options/spatialandgraph/overview/index.html"
                         }
                     ]
                 }
