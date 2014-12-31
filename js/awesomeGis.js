@@ -20,49 +20,46 @@ try {
 
         $(window).scroll(function () {
             if ($(document).scrollTop() > 50) {
-                console.log("Scroll past 50");
                 $('#banner').addClass('shrink');
-                //$('#pageContent').addClass('shrink');
-                //$('#navBar').addClass('shrink');
-                //$('#itemsContainer').addClass('shrink');
             } else {
                 $('#banner').removeClass('shrink');
-                //$('#pageContent').removeClass('shrink');
-                //$('#navBar').removeClass('shrink');
-                //$('#itemsContainer').removeClass('shrink');
             }
         });
-
-        //$(".jquery-anchor").on('click', function (e) {
-
-        //    // prevent default anchor click behavior
-        //    e.preventDefault();
-
-        //    if ($(".jquery-anchor").length > 0 && document.URL.indexOf("#") >= 0) {
-        //        var anchor = document.URL.split("#")[1];
-        //        $(".jquery-anchor").each(function () {
-        //            if ($(this).attr("name") == anchor) {
-        //                $("html,body").animate({
-        //                    scrollTop: $(this).offset().top - 50
-        //                },
-        //                    'slow');
-        //            }
-        //        });
-        //    }
-         
-        //    //// animate
-        //    //$('html').animate({
-        //    //    scrollTop: $(this.hash).offset().top - 120
-        //    //}, 300, function () {
-        //    //    console.log(this);
-        //    //    console.log(this.hash);
-        //    //    // when done, add hash to url
-        //    //    // (default click behaviour)
-        //    //    window.location.hash = this.hash;
-        //    //});
-
-        //});
     });
 } catch (e) {
     console.log(e);
 }
+
+function scroll_if_anchor(href) {
+    href = typeof (href) == "string" ? href : $(this).attr("href");
+
+    // You could easily calculate this dynamically if you prefer
+    var fromTop = 110;
+
+    // If our Href points to a valid, non-empty anchor, and is on the same page (e.g. #foo)
+    // Legacy jQuery and IE7 may have issues: http://stackoverflow.com/q/1593174
+    if (href.indexOf("#") == 0) {
+        var $target = $(href);
+
+        // Older browser without pushState might flicker here, as they momentarily
+        // jump to the wrong position (IE < 10)
+        if ($target.length) {
+            $('html, body').animate({ scrollTop: $target.offset().top - fromTop });
+            if (history && "pushState" in history) {
+                history.pushState({}, document.title, window.location.pathname + href);
+                return false;
+            }
+        }
+    }
+}
+
+// When our page loads, check to see if it contains and anchor
+scroll_if_anchor(window.location.hash);
+
+// Intercept all anchor clicks
+$("body").on("click", "a", scroll_if_anchor);
+
+// Add offset to scrollspy
+$('body').scrollspy({
+    offset: $(window).height() * 0.2
+});
