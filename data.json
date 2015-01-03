@@ -393,7 +393,7 @@
                     "id": "TechnologyVendors_Boundless",
                     "title": "Boundless",
                     "description": "Boundless (formally OpenGeo) builds geospatial tools and services for managing data and building applications. Its flagship product is OpenGeo Suite. The company is headquartered in New York.",
-                    "tags": [ ],
+                    "tags": [ "Open Source", "OpenGeo" ],
                     "urls": [
                         {
                             "title": "Boundless",
@@ -405,11 +405,23 @@
                     "id": "TechnologyVendors_Mapbox",
                     "title": "Mapbox",
                     "description": "Mapbox creates tools for anyone to design and publish custom maps. The company is based in Washington, DC and San Francisco, and is funded by Foundry Group.",
-                    "tags": [ ],
+                    "tags": [ "Open Source" ],
                     "urls": [
                         {
                             "title": "Mapbox",
                             "url": "http://mapbox.com/"
+                        }
+                    ]
+                },
+                {
+                    "id": "TechnologyVendors_Safe",
+                    "title": "Safe Software",
+                    "description": "Safe Software Inc. provides software focused on managing the exchange of spatial and non-spatial data between systems with differing file formats and structures.",
+                    "tags": [ ],
+                    "urls": [
+                        {
+                            "title": "Safe Software",
+                            "url": "http://www.safe.com/"
                         }
                     ]
                 }
