@@ -335,19 +335,105 @@
             ]
         },
         {
-            "id": "category_",
-            "title": "",
-            "description": "",
+            "id": "Server",
+            "title": "GIS Servers",
+            "description": "Server software used to serve GIS data over the web.",
             "entries": [
                 {
-                    "id": "",
-                    "title": "",
-                    "description": "",
+                    "id": "Server_GeoServer",
+                    "title": "GeoServer",
+                    "description": "An open-source server written in Java - allows users to share, process and edit geospatial data.",
                     "tags": [ ],
                     "urls": [
                         {
-                            "title": "",
-                            "url": ""
+                            "title": "GeoServer",
+                            "url": "http://geoserver.org/"
+                        }
+                    ]
+                },
+                {
+                    "id": "Server_AGS",
+                    "title": "ArcGIS Server",
+                    "description": "ArcGIS for Server improves the way your business works by bringing the power of GIS into the hands of everyone in your organization, enabling better decision making.",
+                    "tags": [ "Esri" ],
+                    "urls": [
+                        {
+                            "title": "ArcGIS Server",
+                            "url": "http://www.esri.com/software/arcgis/arcgisserver"
+                        }
+                    ]
+                },
+                {
+                    "id": "Server_AGOL",
+                    "title": "ArcGIS Online",
+                    "description": "Esri's Cloud service for building maps and mapping applications.",
+                    "tags": [ "Esri" ],
+                    "urls": [
+                        {
+                            "title": "ArcGIS Online",
+                            "url": "http://www.arcgis.com/features/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "WebFrontEnd",
+            "title": "Web Front-End Libraries",
+            "description": "Libraries used to build front-end web applications.",
+            "entries": [
+                {
+                    "id": "WebFrontEnd_Leaftlet",
+                    "title": "Leaftlet",
+                    "description": "Modern open-source JavaScript library for mobile-friendly interactive maps.",
+                    "tags": [ "Open Source", "JavaScript" ],
+                    "urls": [
+                        {
+                            "title": "Leaflet",
+                            "url": "http://leafletjs.com/"
+                        }
+                    ]
+                },
+                {
+                    "id": "WebFrontEnd_OpenLayers",
+                    "title": "OpenLayers",
+                    "description": "A high-performance, feature-packed library for all your mapping needs.",
+                    "tags": [ "Open Source", "JavaScript" ],
+                    "urls": [
+                        {
+                            "title": "OpenLayers",
+                            "url": "http://openlayers.org/"
+                        }
+                    ]
+                },
+                {
+                    "id": "WebFrontEnd_ArcJsapi",
+                    "title": "ArcGIS API for JavaScript",
+                    "description": "Esri's library for building front-end web applications using Javascript.",
+                    "tags": [ "JavaScript", "Esri" ],
+                    "urls": [
+                        {
+                            "title": "ArcGIS API for JavaScript",
+                            "url": "https://developers.arcgis.com/javascript/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Standards",
+            "title": "Standards",
+            "description": "",
+            "entries": [
+                {
+                    "id": "Standards_GeoJSON",
+                    "title": "GeoJSON",
+                    "description": "Open standard format for encoding collections of simple geographical features along with their non-spatial attributes using JavaScript Object Notation.",
+                    "tags": [ ],
+                    "urls": [
+                        {
+                            "title": "GeoJSON Spec",
+                            "url": "http://geojson.org/geojson-spec.html"
                         }
                     ]
                 }
@@ -410,6 +496,18 @@
                         {
                             "title": "Mapbox",
                             "url": "http://mapbox.com/"
+                        }
+                    ]
+                },
+                {
+                    "id": "TechnologyVendors_Latitude",
+                    "title": "Latitude Geographics",
+                    "description": "Makers of Geocortex; a web portal for ArcGIS Server and ArcGIS Online.",
+                    "tags": [ "Esri" ],
+                    "urls": [
+                        {
+                            "title": "Latitude Geographics",
+                            "url": "http://www.latitudegeo.com/"
                         }
                     ]
                 },
