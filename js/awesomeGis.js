@@ -1,6 +1,6 @@
-﻿/// <reference path="../node_modules/jquery/dist/jquery.js" />
-/// <reference path="../node_modules/bootstrap/dist/js/bootstrap.js" />
-/// <reference path="../node_modules/handlebars/dist/handlebars.runtime.js" />
+﻿/// <reference path="jquery/jquery.min.js" />
+/// <reference path="bootstrap/bootstrap.min.js" />
+/// <reference path="handlebars/handlebars.runtime.min.js" />
 /// <reference path="../templates/navTemplate.hbs.js" />
 /// <reference path="../templates/samplesTemplate.hbs.js" />
 
