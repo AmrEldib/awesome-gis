@@ -44,6 +44,28 @@
                     "templates/navTemplate.hbs.js": ["templates/navTemplate.handlebars"]
                 }
             }
+        },
+        copy: {
+            main: {
+                files: [
+                  {
+                      src: ['node_modules/jquery/dist/jquery.min.js'],
+                      dest: 'js/jquery/jquery.min.js'
+                  },
+                  {
+                      src: ['node_modules/bootstrap/dist/js/bootstrap.min.js'],
+                      dest: 'js/bootstrap/bootstrap.min.js'
+                  },
+                  {
+                      src: ['node_modules/bootstrap/dist/css/bootstrap.min.css'],
+                      dest: 'css/bootstrap/bootstrap.min.css'
+                  },
+                  {
+                      src: ['node_modules/handlebars/dist/handlebars.runtime.min.js'],
+                      dest: 'js/handlebars/handlebars.runtime.min.js'
+                  }
+                ],
+            },
         }
     });
 
@@ -52,7 +74,9 @@
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-handlebars');
+    grunt.loadNpmTasks('grunt-contrib-copy');
 
     // Register task(s).
-    grunt.registerTask('default', ['watch', 'uglify', 'cssmin', 'handlebars']);
+    grunt.registerTask('default', ['uglify', 'cssmin', 'handlebars', 'copy']);
+    grunt.registerTask('watch', ['watch']);
 };
