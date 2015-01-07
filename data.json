@@ -374,6 +374,26 @@
                             "url": "http://www.arcgis.com/features/"
                         }
                     ]
+                },
+                {
+                    "id": "Server_CartoDB",
+                    "title": "CartoDB",
+                    "description": "CartoDB is a cloud based mapping, analysis and visualization engine that lets users build spatial applications for both mobile and the web.",
+                    "tags": [ "Open Source" ],
+                    "urls": [
+                        {
+                            "title": "CartoDB",
+                            "url": "http://cartodb.com/"
+                        },
+                        {
+                            "title": "CartoDB Platform",
+                            "url": "http://docs.cartodb.com/cartodb-platform.html"
+                        },
+                        {
+                            "title": "CartoDB on GitHub",
+                            "url": "https://github.com/CartoDB"
+                        }
+                    ]
                 }
             ]
         },
@@ -415,6 +435,22 @@
                         {
                             "title": "ArcGIS API for JavaScript",
                             "url": "https://developers.arcgis.com/javascript/"
+                        }
+                    ]
+                },
+                {
+                    "id": "WebFrontEnd_CartoDBjs",
+                    "title": "CartoDB.js",
+                    "description": "CartoDB offers a simple unified JavaScript library called CartoDB.js that let you interact with the CartoDB service.",
+                    "tags": [ "JavaScript", "Open Source" ],
+                    "urls": [
+                        {
+                            "title": "CartoDB.js",
+                            "url": "http://docs.cartodb.com/cartodb-platform/cartodb-js.html"
+                        },
+                        {
+                            "title": "Source Code",
+                            "url": "https://github.com/CartoDB/cartodb.js"
                         }
                     ]
                 }
