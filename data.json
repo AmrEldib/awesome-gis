@@ -766,12 +766,24 @@
                             "url": "http://stateofthemap.org/"
                         },
                         {
+                            "title": "OpenStreetMap wiki for State of the Map (includes links to dates, locations, videos, and other resources)",
+                            "url": "http://wiki.openstreetmap.org/wiki/State_of_the_map"
+                        },
+                        {
                             "title": "State of the Map - Videos",
                             "url": "https://vimeo.com/openstreetmap"
                         },
                         {
                             "title": "State of the Map - United States",
                             "url": "http://stateofthemap.us/"
+                        },
+                        {
+                            "title": "State of the Map - Europe",
+                            "url": "http://www.sotm-eu.org/"
+                        },
+                        {
+                            "title": "State of the Map - Japan",
+                            "url": "https://stateofthemap.jp/"
                         }
                     ]
                 },
