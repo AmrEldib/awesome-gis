@@ -1,6 +1,6 @@
-this["JST"] = this["JST"] || {};
+this["awesomeTemplates"] = this["awesomeTemplates"] || {};
 
-this["JST"]["templates/navTemplate.handlebars"] = Handlebars.template({"1":function(depth0,helpers,partials,data) {
+this["awesomeTemplates"]["templates/navTemplate.handlebars"] = Handlebars.template({"1":function(depth0,helpers,partials,data) {
   var helper, functionType="function", helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
   return "    <li>\r\n        <a href=\"#"
     + escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"id","hash":{},"data":data}) : helper)))

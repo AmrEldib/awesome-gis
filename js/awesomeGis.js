@@ -1,11 +1,12 @@
 ﻿/// <reference path="jquery/jquery.min.js" />
 /// <reference path="bootstrap/bootstrap.min.js" />
-/// <reference path="handlebars/handlebars.runtime.min.js" />
+/// <reference path="handlebars/handlebars.runtime.js" />
 /// <reference path="../templates/navTemplate.hbs.js" />
-/// <reference path="../templates/samplesTemplate.hbs.js" />
+/// <reference path="../templates/itemTemplate.hbs.js" />
 
 try {
     $.get('data.json', function (awesomeData) {
+        var itemTemplate = awesomeTemplates['templates/itemTemplate.handlebars'];
         $('#itemsContainer').html(itemTemplate(awesomeData));
 
         $(function () {
@@ -16,6 +17,7 @@ try {
                 //}
             });
         });
+        var navTemplate = awesomeTemplates['templates/navTemplate.handlebars'];
         $('#navContainer').html(navTemplate(awesomeData));
 
         $(window).scroll(function () {

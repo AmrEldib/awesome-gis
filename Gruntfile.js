@@ -1,5 +1,5 @@
 ﻿module.exports = function (grunt) {
-
+    
     grunt.initConfig({
         watch: {
             scripts: {
@@ -37,10 +37,10 @@
         handlebars: {
             compile: {
                 options: {
-                    namespace: "JST"
+                    namespace: "awesomeTemplates"
                 },
                 files: {
-                    "templates/itemTemplate.hbs.js": "templates/itemTemplate.handlebars",
+                    "templates/itemTemplate.hbs.js": ["templates/itemTemplate.handlebars"],
                     "templates/navTemplate.hbs.js": ["templates/navTemplate.handlebars"]
                 }
             }

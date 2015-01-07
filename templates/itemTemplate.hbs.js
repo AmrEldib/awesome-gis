@@ -1,6 +1,6 @@
-this["JST"] = this["JST"] || {};
+this["awesomeTemplates"] = this["awesomeTemplates"] || {};
 
-this["JST"]["templates/itemTemplate.handlebars"] = Handlebars.template({"1":function(depth0,helpers,partials,data) {
+this["awesomeTemplates"]["templates/itemTemplate.handlebars"] = Handlebars.template({"1":function(depth0,helpers,partials,data) {
   var stack1, helper, options, functionType="function", helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression, blockHelperMissing=helpers.blockHelperMissing, buffer = "<ul class='itemList list-unstyled'>\r\n    <li>\r\n        <h1 id='"
     + escapeExpression(((helper = (helper = helpers.id || (depth0 != null ? depth0.id : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"id","hash":{},"data":data}) : helper)))
     + "' class='page-header'>"

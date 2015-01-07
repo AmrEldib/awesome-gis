@@ -657,6 +657,26 @@
                     ]
                 },
                 {
+                    "id": "Conferences_SOTM",
+                    "title": "State of the Map",
+                    "description": "The annual United States conference for all OpenStreetMap users.",
+                    "tags": [ ],
+                    "urls": [
+                        {
+                            "title": "State of the Map",
+                            "url": "http://stateofthemap.org/"
+                        },
+                        {
+                            "title": "State of the Map - Videos",
+                            "url": "https://vimeo.com/openstreetmap"
+                        },
+                        {
+                            "title": "State of the Map - United States",
+                            "url": "http://stateofthemap.us/"
+                        }
+                    ]
+                },
+                {
                     "id": "Conferences_EsriDevSummit",
                     "title": "Esri Developer Summit",
                     "description": "Held in Palm Springs, California",
