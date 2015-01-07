@@ -577,6 +577,18 @@
                             "url": "http://www.safe.com/"
                         }
                     ]
+                },
+                {
+                    "id": "TechnologyVendors_Mapzen",
+                    "title": "Mapzen",
+                    "description": "An open source mapping lab. Mapzen builds open-source mapping tools and collaborates on open geodata initiatives. ",
+                    "tags": [ "Open Source" ],
+                    "urls": [
+                        {
+                            "title": "Mapzen",
+                            "url": "https://mapzen.com/"
+                        }
+                    ]
                 }
             ]
         },
