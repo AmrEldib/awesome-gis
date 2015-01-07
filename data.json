@@ -453,6 +453,38 @@
                             "url": "https://github.com/CartoDB/cartodb.js"
                         }
                     ]
+                },
+                {
+                    "id": "WebFrontEnd_D3",
+                    "title": "D3.js",
+                    "description": "D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG and CSS.",
+                    "tags": [ "JavaScript", "Open Source" ],
+                    "urls": [
+                        {
+                            "title": "D3.js",
+                            "url": "http://d3js.org"
+                        },
+                        {
+                            "title": "Source Code",
+                            "url": "https://github.com/mbostock/d3"
+                        },
+                        {
+                            "title": "Example of D3 maps",
+                            "url": "http://www.nytimes.com/interactive/2013/04/08/business/global/asia-map.html?_r=0"
+                        }
+                    ]
+                },
+                {
+                    "id": "WebFrontEnd_ModestMaps",
+                    "title": "ModestMaps",
+                    "description": "Modest Maps JS is a BSD-licensed display and interaction library for tile-based maps in Javascript.",
+                    "tags": [ "JavaScript", "Open Source" ],
+                    "urls": [
+                        {
+                            "title": "ModestMaps",
+                            "url": "https://github.com/stamen/modestmaps-js"
+                        }
+                    ]
                 }
             ]
         },
