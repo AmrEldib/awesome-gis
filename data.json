@@ -421,6 +421,25 @@
             ]
         },
         {
+            "id": "Carto",
+            "title": "Cartography and Style",
+            "description": "Make beautiful maps",
+            "entries": [
+                {
+                    "id": "Style_SnazzyMaps",
+                    "title": "Snazzy Maps",
+                    "description": "Snazzy Maps is a community built around creating great looking styles for Google Maps.",
+                    "tags": [ "Open Source" ],
+                    "urls": [
+                        {
+                            "title": "SnazzyMaps",
+                            "url": "https://snazzymaps.com/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "Standards",
             "title": "Standards",
             "description": "",
