@@ -41,7 +41,8 @@
                 },
                 files: {
                     "templates/itemTemplate.hbs.js": ["templates/itemTemplate.handlebars"],
-                    "templates/navTemplate.hbs.js": ["templates/navTemplate.handlebars"]
+                    "templates/navTemplate.hbs.js": ["templates/navTemplate.handlebars"],
+                    "templates/contributorsList.hbs.js": ["templates/contributorsList.handlebars"]
                 }
             }
         },

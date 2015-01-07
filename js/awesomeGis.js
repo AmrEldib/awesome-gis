@@ -27,6 +27,11 @@ try {
                 $('#banner').removeClass('shrink');
             }
         });
+
+        $.get('contributors.json', function (awesomeContributors) {
+            var contributorsList = awesomeTemplates['templates/contributorsList.handlebars'];
+            $('#contributorsContainer').html(contributorsList(awesomeContributors));
+        });
     });
 } catch (e) {
     console.log(e);
