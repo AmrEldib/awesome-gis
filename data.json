@@ -331,6 +331,18 @@
                             "url": "http://www.oracle.com/technetwork/database/options/spatialandgraph/overview/index.html"
                         }
                     ]
+                },
+                { 
+                    "id": "Database_GeoGig",
+                    "title": "GeoGig",
+                    "description": "GeoGig is an open source tool that draws inspiration from Git, but adapts its core concepts to handle distributed versioning of geospatial data.",
+                    "tags": [ "Open Source" ],
+                    "urls": [
+                        {
+                            "title": "GeoGig",
+                            "url": "http://geogig.org/"
+                        }
+                    ]
                 }
             ]
         },
